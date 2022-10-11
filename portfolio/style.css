@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#bodyImg{
+    background-image: url("Design sem nome.png");
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+        
+.logo{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+}
+        
+#ulHeader{
+    margin-top: 110px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.liHeader{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+    color: #FFF;
+}
+
+#nome{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    color: #5999ec;
+    text-shadow: 5px 5px 20px #22272E;
+}
+
+#subTitulo{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #3377D1;
+    text-shadow: 5px 5px 20px #22272E;
+}
+
+#cursando{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    color: #a0a0a0;
+    text-shadow: 5px 5px 20px #22272E;
+}
+
+#main1{
+    background-color: #1C1C1C;
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+}
+
+.iconsAll{
+    display: flex;
+    justify-content: space-around;
+}
+
+.circles{
+    margin-top: 200px;
+    width: 100px;
+    height: 100px;
+    background-color: #FFF;
+    border-radius: 100%;
+}
