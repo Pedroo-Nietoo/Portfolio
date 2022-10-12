@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#bodyImg{
+    background-image: url("img/Fundo\ introdução.png");
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+        
+.logo{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
+        
+#ulHeader{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.liHeader{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    color: #FFF;
+}
+
+#nome{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: #5999ec;
+    text-shadow: 5px 5px 20px #22272E;
+}
+
+#subTitulo{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #3377D1;
+    text-shadow: 5px 5px 20px #22272E;
+}
+
+#cursando{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #a0a0a0;
+    text-shadow: 5px 5px 20px #22272E;
+}
+
+.scrollIconDiv{
+    display: flex;
+    justify-content: center;
+}
+.scrollIcon{
+    margin-top: 150px;
+    width: 50px;
+    height: 50px;
+}
+
+#main1{
+    background-color: #1C1C1C;
+    margin-top: 115px;
+    width: 100%;
+    height: 100vh;
+}
+
+.iconsCircles{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.circles{
+    margin-top: 200px;
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(#82b8ff, #3377D1);
+    border-radius: 100%;
+}
+
+.textCircles{
+    display: contents;
+    justify-content: space-between  ;
+    
+}
