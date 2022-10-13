@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 #bodyImg{
@@ -36,6 +38,7 @@ header{
 #nome{
     display: flex;
     justify-content: center;
+    margin-top: 100px;
     font-size: 60px;
     color: #5999ec;
     text-shadow: 5px 5px 20px #22272E;
@@ -62,15 +65,16 @@ header{
     justify-content: center;
 }
 .scrollIcon{
-    margin-top: 150px;
+    margin-top: 100px;
     width: 50px;
     height: 50px;
+    margin-bottom: 150px;
 }
 
-#main1{
+#main1 {
     background-color: #1C1C1C;
     width: 100%;
-    height: 100vh;
+    height: 100vh; 
 }
 
 .iconsCircles{
@@ -79,13 +83,58 @@ header{
 }
 
 .circles{
-    margin-top: 200px;
+    margin-top: 150px;
     width: 80px;
     height: 80px;
     background-image: linear-gradient(#82b8ff, #3377D1);
     border-radius: 100%;
 }
 
+.textsCirclesDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .textCircles{
-    color: #FFF;
+        color: #82b8ff;
+        font-weight: 600;
+        margin-top: 20px;
+}
+
+#circleSobre{
+    margin-left: 22px;
+}   
+
+#circleConhecimentos{
+    margin-right: 10.5px;
+}
+
+#circleIdiomas{
+    margin-right: 33px;
+}
+
+.descriptionsDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.descriptionDiv{
+    color: #a0a0a0;
+    font-weight: 300;  
+    margin-top: 20px;
+    text-align: center;
+}
+
+#description1{
+    margin-left: 100px;
+    width: 300px;
+}
+
+#description2{
+    width: 300px;
+}
+
+#description3{
+    margin-right: 95px;
+    width: 300px;
 }
