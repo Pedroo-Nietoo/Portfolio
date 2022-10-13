@@ -38,7 +38,7 @@ header{
 #nome{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 80px;
     font-size: 60px;
     color: #5999ec;
     text-shadow: 5px 5px 20px #22272E;
@@ -90,6 +90,12 @@ header{
     border-radius: 100%;
 }
 
+.iconInsideCircles{
+    height: 50px;
+    width: 50px;
+    color: #FFF;
+}
+
 .textsCirclesDiv{
     display: flex;
     justify-content: space-evenly;
@@ -137,4 +143,12 @@ header{
 #description3{
     margin-right: 95px;
     width: 300px;
+}
+
+.iconsInsideCircle{
+    color: #FFF;
+    margin-top: 18px;
+    margin-left: 14.5px;
+    width: 50px;
+    height: 40px;
 }
