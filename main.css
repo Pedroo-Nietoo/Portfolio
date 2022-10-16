@@ -8,6 +8,8 @@
 
 #bodyImg{
     background-image: url("img/Fundo\ introdução.png");
+    min-height: 500px;
+    background-attachment: fixed;
 }
 
 header{
@@ -15,13 +17,23 @@ header{
     justify-content: space-between;
 }
         
-.logo{
+.logo:not(:hover){
     margin-top: 40px;
     margin-left: 50px;
     width: 100px;
     height: 100px;
+    transition: .5s;
 }
-        
+
+.logo:hover{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    transition: .5s;
+    transform: scale(1.5,1.5);   
+}
+
 #ulHeader{
     margin-top: 100px;
     margin-left: 50px;
@@ -116,7 +128,7 @@ header{
 }
 
 #circleIdiomas{
-    margin-right: 33px;
+    margin-right: 35px;
 }
 
 .descriptionsDiv{
@@ -141,14 +153,14 @@ header{
 }
 
 #description3{
-    margin-right: 95px;
+    margin-right: 100px;
     width: 300px;
 }
 
 .iconsInsideCircle{
     color: #FFF;
     margin-top: 18px;
-    margin-left: 14.5px;
+    margin-left: 14.8px;
     width: 50px;
     height: 40px;
 }

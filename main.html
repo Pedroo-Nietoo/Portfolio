@@ -4,15 +4,16 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="main.css">
         <link rel="icon" ref="icon" type="image/png" href="img/logo.png">
         <title>Portfólio - Pedro Nieto</title>
     </head>
+
     <body id="bodyImg">
-
         <header>
-            <img class="logo" src="img\logo.png"/>
-
+            <a href="https://github.com/Pedroo-Nietoo" target="_blank">
+                <img class="logo" src="img\logo.png"/>
+            </a>
             <div id="ulHeader">
                 <span class="liHeader">Sobre</span>
                 <span class="liHeader">Conhecimentos</span>
@@ -34,32 +35,54 @@
             colors="primary:#ffffff,secondary:#3377d1">
         </lord-icon>
         </div>
-        
 
         <main id="main1">
             <div class="iconsCircles">
-                <div class="circles"><img class="iconsInsideCircle" src="user.svg"/></div>
-                <div class="circles"><img class="iconsInsideCircle" src="library.svg"/></div>
-                <div class="circles"><img class="iconsInsideCircle" src="user.svg"/></div>
+                <div class="circles">
+                    <lord-icon class="iconsInsideCircle"
+                    src="https://cdn.lordicon.com/hbvyhtse.json"
+                    trigger="hover"
+                    colors="primary:#FFF">
+                    </lord-icon>
+                </div>
+                <div class="circles">
+                    <lord-icon class="iconsInsideCircle"
+                        src="https://cdn.lordicon.com/qvbrkejx.json"
+                        trigger="hover"
+                        colors="primary:#FFF"
+                        state="hover">
+                    </lord-icon>
+                </div>
+                <div class="circles">
+                    <lord-icon class="iconsInsideCircle"
+                        src="https://cdn.lordicon.com/pkmkagva.json"
+                        trigger="hover"
+                        colors="primary:#FFF"
+                        state="hover">
+                    </lord-icon>
+                </div>
             </div>
             
             <div class="textsCirclesDiv">
                 <div id="circleSobre" class="textCircles" >
                     <span>Sobre mim</span>
                 </div>
-                
                 <div id="circleConhecimentos" class="textCircles">
                     <span>Conhecimentos</span>
                 </div>
-
                 <div id="circleIdiomas" class="textCircles">
                     <span>Idiomas</span>
                 </div>
             </div>
+
             <div class="descriptionsDiv">
                 <p id="description1" class="descriptionDiv">Saiba um pouco mais sobre mim: desde meus hobbies e gostos a objetivos e sonhos futuros.</p>
                 <p id="description2" class="descriptionDiv">Conheça minhas habilidades, acesse meu GitHub e mais.</p>
                 <p id="description3" class="descriptionDiv">Meus idiomas com textos pequenos demonstrando meus conhecimentos.</p>
+            </div>
+
+            <div class="links">
+                <p>Saiba mais</p>
             </div>
         </main>
 
