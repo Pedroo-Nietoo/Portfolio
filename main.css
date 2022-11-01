@@ -102,9 +102,11 @@ header{
 }
 
 .iconesDentroCirculo{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     color: #FFF;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .divTextoCirculos{
