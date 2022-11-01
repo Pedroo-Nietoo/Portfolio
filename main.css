@@ -32,16 +32,16 @@ header{
     height: 100px;
     transition: .5s;
     transform: scale(1.5,1.5);
-    filter: drop-shadow(0 0 10px #3377D1);
+    filter: drop-shadow(0 0 10px #FFF);
 }
 
-#ulHeader{
+#divHeader{
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.liHeader{
+.itemHeader{
     margin-left: 20px;
     margin-right: 20px;
     font-size: 15px;
@@ -54,7 +54,6 @@ header{
     margin-top: 80px;
     font-size: 60px;
     color: #5999ec;
-    text-shadow: 0 0 20px #294061;
 }
 
 #subTitulo{
@@ -62,7 +61,6 @@ header{
     justify-content: center;
     font-size: 30px;
     color: #3377D1;
-    text-shadow: 0 0 20px #294061;
 }
 
 #cursando{
@@ -70,10 +68,10 @@ header{
     justify-content: center;
     font-size: 15px;
     color: #a0a0a0;
-    text-shadow: 5px 5px 20px #22272E;
+    text-shadow: 0 0 10px #22272E;
 }
 
-.scrollIconDiv{
+.divScrollIcon{
     display: flex;
     justify-content: center;
 }
@@ -90,12 +88,12 @@ header{
     height: 100vh; 
 }
 
-.iconsCircles{
+.divCirculos{
     display: flex;
     justify-content: space-evenly;
 }
 
-.circles{
+.circulos{
     margin-top: 150px;
     width: 80px;
     height: 80px;
@@ -103,65 +101,51 @@ header{
     border-radius: 100%;
 }
 
-.iconInsideCircles{
+.iconesDentroCirculo{
     height: 50px;
     width: 50px;
     color: #FFF;
 }
 
-.textsCirclesDiv{
+.divTextoCirculos{
     display: flex;
     justify-content: space-evenly;
 }
 
-.textCircles{
+.textoCirculos{
         color: #82b8ff;
         font-weight: 600;
         margin-top: 20px;
 }
 
-#circleSobre{
-    margin-left: 22px;
+#circuloSobre{
+    display: flex;
+    justify-content: center;
 }   
 
-#circleConhecimentos{
+#circuloConhecimentos{
     margin-right: 10.5px;
 }
 
-#circleIdiomas{
+#circuloIdiomas{
     margin-right: 35px;
 }
 
-.descriptionsDiv{
+#divPaletaCompleta{
+    margin-top: 300px;
+}
+#paleta{
+    margin-left: 550px;
+    margin-right: 550px;
+    filter: drop-shadow(0 0 5px #a0a0a0);
+}
+
+#divTituloPaleta{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
-.descriptionDiv{
-    color: #a0a0a0;
-    font-weight: 300;  
-    margin-top: 20px;
-    text-align: center;
-}
-
-#description1{
-    margin-left: 100px;
-    width: 300px;
-}
-
-#description2{
-    width: 300px;
-}
-
-#description3{
-    margin-right: 100px;
-    width: 300px;
-}
-
-.iconsInsideCircle{
-    color: #FFF;
-    margin-top: 20px;
-    margin-left: 15px;
-    width: 50px;
-    height: 40px;
+#tituloPaleta{
+    margin-bottom: 50px;
+    color: #3377D1
 }
